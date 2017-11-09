@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Comet Ser</title>
+
+  </head>
+  <body>
+
+      <div id="map"></div>
+      <!-- Replace the value of the key parameter with your own API key. -->
+      <div id="controls">
+          <p>Filter by size: <input id="sizeSlider" type="range" value="0"> <span id="sizeValue"></span> kg </p>
+          <p>Filter by date: <input id="dateSlider" type="range" min="1" max="100" value="500">AD <span id="dateValue"></span> </p>
+      </div>
+
+
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlfQ-rcLBtUuk9YO1JfcTnBRtgDZJSvSo&callback=initMap">
+    </script>
+
+
+    <script type="text/javascript" src="map.js"></script>
+    <script type="text/javascript" src="comet.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+#map {
+  height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  vertical-align: sub;
+}
+
+#controls {
+  text-align: center;
+  border-radius: 5px;
+  vertical-align: middle;
+
+  width: 50%;
+  height: 10%;
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+  background-color: rgba(255, 255, 255, 0.8);
+}

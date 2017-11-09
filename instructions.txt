@@ -1,0 +1,7 @@
+1. Create our comet class
+2. fetch request
+3. create comet instances from data
+4. Add comet instances to Map
+
+---
+3-4: Add a bunch of filters and manipulation options
